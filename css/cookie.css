@@ -1,8 +1,7 @@
 #cookie {
-    /* width: 90%; */
+    width: 90%;
     max-width: 700px;
-    height: auto;
-    margin: 0 15px;
+    margin: 0 auto;
 }
 #win-text {
     color: white;
