@@ -1,12 +1,13 @@
 #cookie {
-    width: 90%;
+    /* width: 90%; */
     max-width: 700px;
-    margin: 0 auto;
+    height: auto;
+    margin: 0 15px;
 }
 #win-text {
     color: white;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto 40px;
 }
 #greed-warning {
     color: white;
