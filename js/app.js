@@ -1,14 +1,13 @@
 const buttonElement = document.querySelector('#buzzer');
 const headElement = document.querySelector('head');
 const gameElement = document.querySelector('#game');
-let cookieElement;
 
 let buttonPushed = false;
 let firstPressAfterCookie = true;
 
 const buttonHandler = () => {
     if (!buttonPushed) {
-        cookieElement = document.createElement('img');
+        let cookieElement = document.createElement('img');
         cookieElement.setAttribute('id', 'cookie');
         cookieElement.setAttribute('src', 'https://www.thedailymeal.com/img/gallery/chocolate-chip-cookies-recipe/intro-1665769539.webp');
         cookieElement.setAttribute('alt', 'Picture of cookie');
@@ -26,7 +25,6 @@ const buttonHandler = () => {
         headElement.appendChild(cookieStyleElement);
 
         buttonPushed = true;
-
     }
     else if (firstPressAfterCookie) {
         const greedElement = document.createElement('h4');
